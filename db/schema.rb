@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171218165033) do
+ActiveRecord::Schema.define(version: 20171218171955) do
 
   create_table "genres", force: :cascade do |t|
     t.string "name"
@@ -22,7 +22,6 @@ ActiveRecord::Schema.define(version: 20171218165033) do
     t.string "title"
     t.text "overview"
     t.string "language"
-    t.string "genres"
     t.date "release_date"
     t.integer "revenue", limit: 8
     t.integer "runtime"

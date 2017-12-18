@@ -6,7 +6,6 @@
 #  title        :string
 #  overview     :text
 #  language     :string
-#  genres       :string
 #  release_date :date
 #  revenue      :integer
 #  runtime      :integer
