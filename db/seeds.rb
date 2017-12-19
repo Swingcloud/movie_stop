@@ -13,7 +13,7 @@ require 'csv'
   puts "分類： #{name} 新增完成"
 end
 
-data = CSV.read(File.join(File.dirname(__dir__), 'tmp', 'movies_stats.csv'))
+data = CSV.read(File.join(File.dirname(__dir__), 'lib', 'assets', 'movies_stats.csv'))
 
 data.each do |row|
   movie = Movie.new
